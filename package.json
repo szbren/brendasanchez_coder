@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css":"node-sass --include-path scss scss/signup.scss css/signup.css",
+    "build-css":"node-sass --include-path scss scss/login.scss css/login.css",
     "watch-css":"nodemon -e scss -x \"npm run build-css\""
   },
   "keywords": [],
