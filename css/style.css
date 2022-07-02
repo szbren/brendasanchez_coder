@@ -1,6 +1,5 @@
 body {
-  background-color: #C4CFC6 !important; 
-}
+  background-color: #C4CFC6 !important; }
 
 h3 {
   margin: 0; }
@@ -55,7 +54,6 @@ body {
 img {
   text-align: center;
   align-items: center; }
-
 
 .h2 {
   color: #919C6C; }
@@ -343,56 +341,10 @@ img {
     background-repeat: no-repeat;
     background-size: cover; }
 
-    @media screen and (min-width: 800px) {
-      .img {
-       width: 100%;
-      }
-      .carousel {
-        width: 100%;
-      }
-      .gallery_wrapper{
-        width: 100%;
-      }
-      .card-group {
-        width: 100%;
-      }
-      .for_newsletter {
-        width: 100%;
-      }
-      .button {
-        width: 100%;
-      }
-.select_c {
-  width: 100%;
-}
-.send_it {
+@media screen and (min-width: 800px) {
+  .img, .carousel, .gallery_wrapper, .card-group, .for_newsletter, .select_c {
+    width: 100%; } }
 
-  width: 100%;
-}
-    }
-
-
-    @media screen and (min-width: 400px) {
-     .container {
-    width: 100%;
-     }
-     .gallery_wrapper {
-      width: 100%;
-     }
-     .card-group {
-      width: 100%;
-     }
-     .for_newsletter{
-      width: 100%;
-     }
-     .button {
-      width: 100%;
-     }
-     .select_c {
-      width: 100%;
-     }
-     .send_it {
-      width: 100%;
-     }
-
-      }
+@media screen and (min-width: 400px) {
+  .container, .gallery_wrapper, .card-group, .for_newsletter, .select_c {
+    width: 100%; } }
