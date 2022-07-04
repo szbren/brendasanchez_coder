@@ -348,3 +348,9 @@ img {
 @media screen and (min-width: 400px) {
   .container, .gallery_wrapper, .card-group, .for_newsletter, .select_c {
     width: 100%; } }
+
+.follow {
+  text-align: start; }
+
+.tgcfooter {
+  background-color: #C4CFC6; }
