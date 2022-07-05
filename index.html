@@ -70,26 +70,37 @@
       </div>
 
     </main>
-
-    <!--whats new section-->
-
-    <div class="gallery_wrapper">
-      <hr>
-      <h3>WHAT'S NEW</h3>
-      <br>
-      <div id="gallery_grid">
-        <img src="./Assets/banner1.png" alt="" class="span_1">
-        <img src="./Assets/banner6.png" alt="" class="span_2">
-        <img src="./Assets/banner5.png" alt="" class="span_3">
-        <img src="./Assets/grnper.jpg" alt="" class="span_4">
-        <img src="./Assets/banner3.png" alt="" class="span_5">
-      </div>
+<br>
+<hr>
+    <!--gallery section-->
+    <h3>CHECK OUR GALLERY</h3>
+<br>
+<div class="gallery">
+      <id class="gallery__item gallery__item--1">
+        <img src="./Assets/banner5.png" class="gallery__img" alt="Image 1">
+      </id>
+      <id class="gallery__item gallery__item--2">
+        <img src="./Assets/banner11.png" class="gallery__img" alt="Image 2">
+      </id>
+      <id class="gallery__item gallery__item--3">
+        <img src="./Assets/banner9.jpg" class="gallery__img" alt="Image 3">
+      </id>
+       <id class="gallery__item gallery__item--4">
+        <img src="./Assets/banner1.png" class="gallery__img" alt="Image 4">
+      </id>
+      <id class="gallery__item gallery__item--5">
+        <img src="./Assets/banner10.png" class="gallery__img" alt="Image 5">
+      </id>
+      <id class="gallery__item gallery__item--6">
+        <img src="./Assets/banner6.png" class="gallery__img" alt="Image 6">
+      </id>
     </div>
-    <br>
     <hr>
+<br>
+
+    <!--cards-->
 
     <h3>VISIT OUR STORES</h3>
-
     <br>
 
     <div class="card-group">
@@ -98,9 +109,7 @@
 
         <div class="card-body">
           <h5 class="card-title">Buenos Aires, Argentina</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <p class="card-text">Buenos Aires is the capital and largest city in the South American country of Argentina. It has its own executive, legislative and judicial powers. It is located in the central-eastern region of the country, on the southern shore of the Río de la Plata, in the Pampas region. 
           </p>
           <p class="card-text"><small class="text-muted">Av. Lorem Ipsum, 2304</small></p>
         </div>
@@ -109,10 +118,7 @@
         <img src="./Assets/barcelonacard.png" class="card-img-top" alt="barcelonacity">
         <div class="card-body">
           <h5 class="card-title">Barcelona, Spain</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
+          <p class="card-text"> Barcelona has become one of the first tourist destination of Spain, it has everything to please the majority of visitors. This inland is full of charm not to forget beautiful beaches in La Costa Brava. The variety of artistic treasures, the Romanesque churches and the great names in modern art and architecture from Dali, Gaudi, Miro and Picasso</p>
           <p class="card-text"><small class="text-muted">Lorem Ipsum, 0499</small></p>
         </div>
       </div>
@@ -120,9 +126,7 @@
         <img src="./Assets/newyorkcard.png" class="card-img-top" alt="newyorkcity">
         <div class="card-body">
           <h5 class="card-title">New York, USA</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <p class="card-text"> New York is a city of diversity and dynamism. It is also a city of politics, economy and culture. It is even described as the economic and cultural capital of the world, and New York City is one of the most populous cities in the United States.
           </p>
           <p class="card-text"><small class="text-muted">Lorem Ipsum, 3242</small></p>
         </div>
@@ -213,30 +217,40 @@
     <br>
     <hr>
     <br>
+
+    <!--shipping table-->
     <h3>SHIPPING</h3>
     <br>
     <p class="shipping">
       Place an order higher than the minumum spend to receive free standard delivery:
     </p>
     <br>
-    <table>
+    <table class="table-fill">
+      <thead>
       <tr>
-        <th>Free Shipping </th>
-        <th>Spend over</th>
+      <th class="text-left">Free Shipping</th>
+      <th class="text-left">Spend Over</th>
+      </tr>
+      </thead>
+      <tbody class="table-hover">
+      <tr>
+      <td class="text-left">Argentina</td>
+      <td class="text-left">$ 8,000.00</td>
       </tr>
       <tr>
-        <td>Argentina</td>
-        <td> $6000</td>
+      <td class="text-left">United States</td>
+      <td class="text-left">$ 500</td>
       </tr>
       <tr>
-        <td>United States</td>
-        <td> $200 </td>
+      <td class="text-left">Spain</td>
+      <td class="text-left">$450</td>
       </tr>
-      <tr>
-        <td>Europe</td>
-        <td>€115</td>
+        <tr>
+      <td class="text-left">UK</td>
+      <td class="text-left">$400</td>
       </tr>
-    </table>
+      </tbody>
+      </table>
     <br>
     <hr>
     <div>
@@ -247,12 +261,11 @@
           <h7>FOLLOW US!</h7>
         </div>
         <ul>
-          <li><a href="https://www.facebook.com/"><img src="./Assets/facebook.png" style="width:40px;height:40px;"></a>
+          <li><a href="https://www.facebook.com/"><img src="./Assets/facebook.png" class="socialm"></a>
           </li>
-          <li><a href="https://www.twitter.com/"><img src="./Assets/twitter.png" style="width:40px;height:40px;"></a>
+          <li><a href="https://www.twitter.com/"><img src="./Assets/twitter.png" class="socialm"></a>
           </li>
-          <li><a href="https://www.instagram.com/"><img src="./Assets/instagram.png"
-                style="width:40px;height:40px;"></a>
+          <li><a href="https://www.instagram.com/"><img src="./Assets/instagram.png" class="socialm"></a>
           </li>
         </ul>
         <h6>© The Green Closet, All rights reserved.</h6>
@@ -264,7 +277,7 @@
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
 
-    </div>
+      </div>
 </body>
 
 </html>
