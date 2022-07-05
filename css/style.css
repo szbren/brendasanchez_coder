@@ -354,3 +354,8 @@ img {
 
 .tgcfooter {
   background-color: #C4CFC6; }
+
+  .card-img-top {
+    width:370,5px;
+    height:300px;
+  }
