@@ -210,10 +210,8 @@
         <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
       </div>
       <br>
-      <div>
-        <button type="submit">SEND</button>
-      </div>
     </form>
+    <button class="btn btn-success" type="submit">SEND</button>
     <br>
     <hr>
     <br>
@@ -225,6 +223,8 @@
       Place an order higher than the minumum spend to receive free standard delivery:
     </p>
     <br>
+    <div class="d-flex flex-row">
+    <div class="flex-row">
     <table class="table-fill">
       <thead>
       <tr>
@@ -251,6 +251,8 @@
       </tr>
       </tbody>
       </table>
+      </div>
+      </div>
     <br>
     <hr>
     <div>
@@ -260,24 +262,30 @@
         <div class="follow">
           <h7>FOLLOW US!</h7>
         </div>
-        <ul>
-          <li><a href="https://www.facebook.com/"><img src="./Assets/facebook.png" class="socialm"></a>
-          </li>
-          <li><a href="https://www.twitter.com/"><img src="./Assets/twitter.png" class="socialm"></a>
-          </li>
-          <li><a href="https://www.instagram.com/"><img src="./Assets/instagram.png" class="socialm"></a>
-          </li>
-        </ul>
-        <h6>© The Green Closet, All rights reserved.</h6>
+        <div class="container socialmedia">
+          <div class="d-flex flex-row">
+            <div class="p-2">
+              <a href="https://www.facebook.com/"><img src="./Assets/facebook.png" class="socialm"></a>
+            </div>
+            <div class="p-2">
+              <a href="https://www.twitter.com/"><img src="./Assets/twitter.png" class="socialm"></a>
+            </div>
+            <div class="p-2">
+              <a href="https://www.instagram.com/"><img src="./Assets/instagram.png" class="socialm"></a>
+            </div>
+          </div>
+        </div>
+        <h6 class="rights">© The Green Closet, All rights reserved.</h6>
       </footer>
+    
       <!--footer ends-->
-
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
 
       </div>
+
 </body>
 
 </html>
