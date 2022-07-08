@@ -6,8 +6,7 @@ body {
   background-color: #C4CFC6; }
 
 p, div {
-  color: black;
-}
+  color: black; }
 
 /* Underline*/
 .nav-item {
@@ -44,4 +43,3 @@ p, div {
 
 .dropdown-menu {
   border: 0px; }
-

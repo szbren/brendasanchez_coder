@@ -226,11 +226,6 @@ li {
   height: 300px;
 }
 
-.socialm {
-  width: 40px;
-  height: 40px;
-}
-
 /* Home cards */
 
 .home-cards {
@@ -441,4 +436,17 @@ th.text-right, td.text-right {
 
 .socialmedia {
   margin-bottom: 10px !important;
+}
+
+.shippingtitle {
+  text-align: left;
+}
+
+.socialm {
+  width: 40px;
+  height: 40px;
+}
+
+.shipping, .ship, .touch, .newsletter, .visit, .check {
+  text-align: left;
 }
