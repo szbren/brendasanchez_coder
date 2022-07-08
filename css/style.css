@@ -169,10 +169,6 @@ li {
   width: 370,5px;
   height: 300px; }
 
-.socialm {
-  width: 40px;
-  height: 40px; }
-
 /* Home cards */
 .home-cards {
   display: grid;
@@ -318,14 +314,3 @@ th.text-center, td.text-center {
 
 th.text-right, td.text-right {
   text-align: right; }
-
-.follow {
-  margin-left: 25px !important; }
-
-.rights {
-  margin-bottom: 25px !important;
-  margin-left: 25px !important;
-  padding-bottom: 10px; }
-
-.socialmedia {
-  margin-bottom: 10px !important; }
